@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bt</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css"></script>
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <div class="container1">
+      <header>
+        <div class="header-left">
+          <a href="#">HELP</a>
+          <span> <ion-icon name="call"></ion-icon> +1-202-555-0151 </span>
+        </div>
+        <div class="header-right">
+          <a href="#">MY ACCOUNT</a>
+          <a href="#">SIGN IN</a>
+          <a href="#">CREATE ACCOUNT</a>
+        </div>
+      </header>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark navtive">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">TSHOP</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse home-nav" id="navbarTogglerDemo01">
+          <div class="inhome-nav">
+            <!-- Links -->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link home" href="home.html">HOME</a>
+              </li>
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbardrop"
+                  data-toggle="dropdown"
+                >
+                  NEW PRODUCTS
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">products 1</a>
+                  <a class="dropdown-item" href="#">products 2</a>
+                  <a class="dropdown-item" href="#">products 3</a>
+                </div>
+              </li>
+
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbardrop"
+                  data-toggle="dropdown"
+                >
+                  SHOP
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Shop 1</a>
+                  <a class="dropdown-item" href="#">Shop 2</a>
+                  <a class="dropdown-item" href="#">Shop 3</a>
+                </div>
+              </li>
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbardrop"
+                  data-toggle="dropdown"
+                >
+                  PAGE
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Page 1</a>
+                  <a class="dropdown-item" href="#">Page 2</a>
+                  <a class="dropdown-item" href="#">Page 3</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ALL PAGE LINK</a>
+              </li>
+            </ul>
+          </div>
+          <div class="inhome-nav">
+            <ul class="navbar-nav">
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbardrop"
+                  data-toggle="dropdown"         
+                >
+                  <ion-icon name="cart"></ion-icon>CART(0)
+                </a>
+                <div class="dropdown-menu">               
+                </div>
+                <script>
+                  function order(){
+                    let cart = getElementById('ordercart').value
+                  }
+                </script>
+              </li>
+            </ul>
+            <form>
+              <input type="text" name="search" placeholder="Search.." />
+            </form>
+          </div>
+        </div>
+      </nav>
+      <section>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+            <li data-target="#demo" data-slide-to="4"></li>
+          </ul>
+
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/banner1.jpg"
+                alt="Los Angeles"
+                width="1500"
+                height="500"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/banner2.jpg"
+                alt="Chicago"
+                width="1500"
+                height="500"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/banner3.jpg"
+                alt="New York"
+                width="1500"
+                height="500"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/banner4.jpg"
+                alt="New York"
+                width="1500"
+                height="500"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/banner5.jpg"
+                alt="New York"
+                width="1500"
+                height="500"
+              />
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+        <div class="content">
+            <div class="border-forcontent1"></div>
+            <h1>NEW ARRIVALS</h1>
+            <div class="border-forcontent"></div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+              <div class="discount">NEW</div>
+              <div class="discount1">15% OFF</div>
+              <img src="img/product1-sm.jpg" alt="" />
+              <h5>CONSTIAOSR ÁOCKC</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                elementum
+              </p>
+              XL/XXL/L <br>
+              <span>$25</span> <br>
+              <button onclick="order()"><ion-icon name="cart"></ion-icon> Add to cash</button>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+              <div class="discount2">15% OFF</div>
+                <div class="img">
+              <img src="img/product2-sm.jpg" alt="" />
+                </div>
+              <h5>CONSTIAOSR ÁOCKC</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                elementum
+              </p>
+              XL/XXL/L <br>
+              <span>$25</span> <br>
+              <button onclick="order()"><ion-icon name="cart"></ion-icon> Add to cash</button>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+              <div class="discount">NEW</div>
+              <img src="img/product3-sm.jpg" alt="" />
+              <h5>CONSTIAOSR ÁOCKC</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                elementum
+              </p>
+              XL/XXL/L <br>
+              <span>$25</span> <br>
+              <button onclick="order()"><ion-icon name="cart"></ion-icon> Add to cash</button> 
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+              <img src="img/product4-sm.jpg" alt="" />
+              <h5>CONSTIAOSR ÁOCKC</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                elementum
+              </p>
+              XL/XXL/L <br>
+              <span>$25</span> <br>
+              <button onclick="order()"><ion-icon name="cart"></ion-icon> Add to cash</button>
+            </div>
+          </div>
+        </div>
+        <div class="next-nav">
+          <nav>
+            <ul
+              class="
+                pagination
+                d-flex
+                justify-content-center
+                flex-wrap
+                pagination-rounded-flat pagination-success
+              "
+            >
+              <li class="page-item">
+                <a class="page-link" href="#" data-abc="true"
+                  ><ion-icon name="caret-back-sharp"></ion-icon
+                ></a>
+              </li>
+              <li class="page-item active">
+                <a class="page-link" href="#" data-abc="true">1</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#" data-abc="true">2</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#" data-abc="true">3</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#" data-abc="true">4</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#" data-abc="true"
+                  ><ion-icon name="caret-forward-sharp"></ion-icon
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="banner-bottom">
+          <div class="content-on-banner"></div>
+          <div class="img-of-banner">
+            <img src="img/banner2.jpg" alt="" />
+          </div>
+        </div>
+        <div class="information">
+            <div class="row">
+                <div class="col-xl-3">
+                    <h3>SUPPORT</h3>
+                    <span>Lorem ipsum dolor sit amet, consectetur</span><br>
+                    <span style="color: black;"><b><ion-icon name="call-sharp"></ion-icon>+1-202-555-0151</b></span><br>
+                    <p><ion-icon name="mail-outline"></ion-icon>HELP@YOURWEB.COM</p>
+                </div>
+                <div class="col-xl-2">
+                    <h3>SHOP</h3>
+                    men's <br>
+                    women <br>
+                    kids' <br>
+                    shoes <br>
+                    gilf cards <br>
+                </div>
+                <div class="col-xl-2">
+                    <h3>SHOP</h3>
+                    men's <br>
+                    women <br>
+                    kids' <br>
+                    shoes <br>
+                    gilf cards <br>
+                </div>
+                <div class="col-xl-2">
+                    <h3>SHOP</h3>
+                    men's <br>
+                    women <br>
+                    kids' <br>
+                    shoes <br>
+                    gilf cards <br>
+                </div>
+                <div class="col-xl-3">
+                    <h3>STAY IN TOUCH</h3>
+                    <form class="email">
+                        <input type="text" placeholder="Email" id="newemail">
+                        <button onclick="email()">SUBCRIBE<ion-icon name="arrow-forward-outline"></ion-icon></button>
+                    </form>
+                    <script>
+                      function email(){
+                        let a = document.getElementById('newemail').value;              
+                        let b;
+                        if(a){
+                          // check nếu nhập a ko có @ hoặc dấu chấm
+                          if(a.indexOf('@') == -1 || a.indexOf('.') == -1){
+                            b = alert('Bạn nhập thiếu điều kiện của email rồi')
+                        }
+                          else
+                          b = alert('Email của bạn là '+ a)
+                        }                  
+                        else
+                        b = alert('Bạn chưa nhập gì cả')
+                        return b;                      
+                    }                 
+                    </script>
+                    <div class="link">
+                        
+                        <div class="icon"><ion-icon name="logo-facebook"></ion-icon></div>
+                        <div class="icon"><ion-icon name="logo-twitter"></ion-icon></div>
+                        <div class="icon"><ion-icon name="logo-google"></ion-icon></div>
+                        <div class="icon"><ion-icon name="happy"></ion-icon></div>
+                        <div class="icon"><ion-icon name="logo-youtube"></ion-icon></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <footer>
+          <div class="by">
+             <b> &copy; TSHOP 2014.All right reserved.</b>
+          </div>
+          <div class="cashout">
+              <img src="img/paypal-cards.png" alt="">
+          </div>
+      </footer>
+    </div>
+  </body>
+</html>

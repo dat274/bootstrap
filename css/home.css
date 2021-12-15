@@ -1,0 +1,239 @@
+body {
+  background-color: #edeef0;
+}
+.container1 {
+  width: 70%;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bolder;
+  color: white;
+  background-color: #46ac6f;
+  font-size: 80%;
+  padding: 0px 20px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.navbar-nav {
+  padding: 10px 10px !important;
+}
+.navbar-brand {
+  color: white !important;
+  font-weight: bolder;
+  text-shadow: 2px 2px grey;
+  font-size: 150%;
+  padding: 0px 0px !important;
+}
+.bg-dark {
+  background-color: #4ec67f !important;
+}
+.navbar-nav .nav-link {
+  color: white !important;
+  transition: color 1s !important;
+}
+.navbar-nav .nav-link:hover {
+  color: black !important;
+}
+.home-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  /* position: relative;
+    display: flex;
+    flex-wrap: wrap; // allow us to do the line break for collapsing content
+    align-items: center;
+    justify-content: space-between; // space out brand from logo */
+  padding: 0px 30px !important;
+  border: none !important;
+}
+nav .navbar-brand {
+  transition: color 2s !important;
+}
+nav .navbar-brand:hover {
+  color: black !important;
+}
+nav .inhome-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .inhome-nav .navbar-nav {
+  padding: 0px 0px !important;
+}
+nav .inhome-nav .navbar-nav .home {
+  background-color: #46ac6f;
+}
+section .content {
+  text-align: center;
+  margin: 30px 0px 30px 0px;
+  position: relative;
+  color: grey;
+}
+section .content .border-forcontent1 {
+  position: absolute;
+  background-color: grey;
+  height: 1px;
+  width: 200px;
+  margin-left: 300px;
+  margin-top: 25px;
+}
+section .content .border-forcontent {
+  position: absolute;
+  background-color: grey;
+  height: 1px;
+  width: 200px;
+  margin-left: 835px;
+  margin-top: -31.5px;
+}
+section .container .row {
+  justify-content: space-between;
+}
+section .container .row .col-xl-3 {
+  text-align: center;
+  background-color: white;
+  padding: 0px 0px !important;
+  position: relative;
+}
+section .container .row .col-xl-3 .discount {
+  position: absolute;
+  background-color: #46ac6f;
+  margin-top: 150px;
+  font-weight: bolder;
+  color: white;
+  padding: 0px 10px;
+}
+section .container .row .col-xl-3 .discount1 {
+  position: absolute;
+  background-color: red;
+  margin-top: 150px;
+  font-weight: bolder;
+  color: white;
+  margin-left: 55px;
+  padding: 0px 5px;
+  border-radius: 5px;
+}
+section .container .row .col-xl-3 .discount2 {
+  position: absolute;
+  background-color: red;
+  margin-top: 150px;
+  font-weight: bolder;
+  color: white;
+  padding: 0px 5px;
+  border-radius: 5px;
+}
+section .container .row .col-xl-3 img {
+  width: 100%;
+}
+section .container .row .col-xl-3 span {
+  font-weight: bolder;
+}
+section .container .row .col-xl-3 p {
+  margin-bottom: 20px;
+}
+section .container .row .col-xl-3 button {
+  align-items: center;
+  background-color: #46ac6f;
+  padding: 10px 10px;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  margin: 10px 0px 10px 0px;
+  border-radius: 5px;
+}
+.next-nav {
+  margin-top: 20px;
+}
+input[type="text"] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 2px 20px 2px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+nav .home-nav input[type="text"]:focus {
+  width: 100%;
+}
+.banner-bottom img {
+  width: 100%;
+}
+.information {
+  margin-top: 50px;
+  color: #b0b0b0;
+}
+.information .col-xl-3 h3 {
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-size: 120%;
+  font-weight: bolder;
+  color: black;
+}
+.information .col-xl-2 h3 {
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-size: 120%;
+  font-weight: bolder;
+  color: black;
+}
+.information .col-xl-2 p {
+  align-items: center;
+}
+.information .col-xl-3 .email {
+  display: flex;
+  flex-direction: column;
+}
+.information .col-xl-3 input {
+  background-color: transparent;
+  border: 1px solid gainsboro;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.information .col-xl-3 ::placeholder {
+  text-align: center;
+  font-weight: bolder;
+}
+.information .col-xl-3 button {
+  background-color: #46ac6f;
+  padding: 10px 10px;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.information .col-xl-3 .link {
+  display: flex;
+}
+.information .col-xl-3 .link .icon {
+  font-size: 200%;
+  margin-right: 20px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-top: 2px solid gray;
+  padding-top: 10px;
+}
+footer .cashout {
+  width: 30%;
+}
+
+footer .cashout img {
+  width: 100%;
+}
